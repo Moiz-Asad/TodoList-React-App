@@ -47,7 +47,7 @@ function TodoList() {
         {Lst.map((item)=>{
             ID++
             return (<div className={"ListItem"}>
-            <p key={ID}>{ID} | {item}</p>
+            <p key={ID}><span className={"ncontainer"}>{ID}</span> | {item}</p>
             <span className={"tickBtn"} onClick={()=>{
                 var K = Lst.slice();
                 const index = K.indexOf(item);
@@ -77,7 +77,7 @@ function TodoList() {
         
         {CLst.map((item)=>{
             ID2++
-            return (<div className={"ListItem"}><p key={ID2}>{ID2} | {item} 
+            return (<div className={"ListItem"}><p key={ID2}><span className={"ncontainer"}>{ID2}</span> | {item} 
             </p>
             <span className={"errorBtn"} onClick={()=>{
                 var K = CLst.slice();
