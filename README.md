@@ -1,6 +1,8 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Check Live Preview
+Click -> (https://moiz-asad.github.io/TodoList-React-App/)
 
 ## Available Scripts
 
